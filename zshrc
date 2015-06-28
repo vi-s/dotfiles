@@ -85,3 +85,9 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
+
+# Chromebook Specific
+
+# cd into the sandisk usb drive
+# sanpath is a one line script that echos the sandisk usb path
+alias entersan="cd $(sanpath)"
